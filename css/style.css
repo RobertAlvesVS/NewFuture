@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  background: rgba(150, 238, 238, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.new-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.new-logo-container h1 {
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 53px;
+  margin-bottom: 46px;
+}
+
+.new-logo-container img {
+  width: 128px;
+  margin-bottom: 46px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.new-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.new-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 46px;
+}
+.new-input-container label {
+  width: 279px;
+  height: 67px;
+  border: 0.1px;
+  border-radius: 20px;
+  background-color: rgba(217, 217, 217, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0 20px;
+  font-size: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: italic;
+  text-align: center;
+  padding: 20px 10px;
+  cursor: pointer;
+}
+
+#input01 {
+  width: 279px;
+  height: 67px;
+  border: 0.1px;
+  border-radius: 20px;
+  background-color: rgba(217, 217, 217, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0 20px;
+  font-size: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: italic;
+}
+
+#input02 {
+  width: 160px;
+  height: 61px;
+  border: 0.1px;
+  border-radius: 20px;
+  background-color: rgba(217, 217, 217, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0 20px;
+  font-size: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: italic;
+}
+
+#image{
+  display: none;
+}
+
+.new-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.new-footer button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
